@@ -2,6 +2,10 @@ backend:
   name: github
   repo: dysicreator/topailists-site
   branch: main
+  auth_scope: repo
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+  app_id: CLIENT_ID_HERE
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
