@@ -1,11 +1,6 @@
 backend:
-  name: github
-  repo: dysicreator/topailists-site
+  name: git-gateway
   branch: main
-  auth_scope: repo
-  base_url: https://api.netlify.com
-  auth_endpoint: auth
-  app_id: Ov23li272ZjGIhAsIg6i
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
